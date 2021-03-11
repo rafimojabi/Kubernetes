@@ -49,8 +49,8 @@ echo "deb [signed-by=/usr/share/keyrings/kubernetes-archive-keyring.gpg] https:/
 #apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main" 
 
 echo "[TASK 7] Install Kubernetes components (kubeadm, kubelet and kubectl)"
-apt update
-apt install -qq -y kubeadm kubelet kubectl
+apt-get update
+apt-get install  -y kubeadm kubelet kubectl
 
 echo "[TASK 8] Enable ssh password authentication"
 sed -i 's/^PasswordAuthentication .*/PasswordAuthentication yes/' /etc/ssh/sshd_config
