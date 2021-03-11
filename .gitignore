@@ -1,2 +1,4 @@
 /home/rafi/Gits/kubernetes/.vagrant
 *.vagrant/*
+VagrantProv/.vagrant/*
+VagrantProv/.vagrant
