@@ -2,3 +2,5 @@
 *.vagrant/*
 VagrantProv/.vagrant/*
 VagrantProv/.vagrant
+VagrantProv/.rafi
+VagrantProv/.rafi/*
